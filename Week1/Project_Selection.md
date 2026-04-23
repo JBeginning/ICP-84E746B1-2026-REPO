@@ -14,6 +14,7 @@ The following projects have been selected based on their real-world application 
 - **Description:** Architecting a scalable REST API using a serverless approach. Focus is on "Cloud Native" compute patterns and NoSQL data modeling.
 
 ## Infrastructure Foundation
-- [x] **New AWS Account:** Provisioned to leverage fresh Free Tier and isolate projects.
-- [x] **Security:** IAM user created with MFA and administrator permissions (non-root).
-- [x] **Cost Management:** $1.00 USD Budget Alarm established for real-time monitoring.
+- [x] **Account Audit:** Verified current billing state and cleared legacy resources.
+- [x] **Identity Management:** Provisioned a dedicated IAM administrator user for daily operations.
+- [x] **Security Hardening:** Enforced Multi-Factor Authentication (MFA) and adhered to the Principle of Least Privilege.
+- [x] **Cost Governance:** Configured automated budget tracking and threshold alerts for real-time monitoring.
